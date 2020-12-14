@@ -23,7 +23,7 @@ We use the following public 360 video dataset:
 
 Published on ACM MMsys, 2017. If you find the dataset useful for your research, please cite their paper.
 
-You can find the tile requests of the dataset in the folder "tile". Download the folder and store it locally, log the absolute  path and transform the absolute  path into  `dataset_path`.
+You can find the tile requests of the dataset in this repository named "tile". Download the file, unzip, and store it locally. Log the absolute path and transform the absolute  path into  `dataset_path`.
 
 For example, if you store it in D:\tile,  then the `dataset_path` is D:/tile/.  
 
