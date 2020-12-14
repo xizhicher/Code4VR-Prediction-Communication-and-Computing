@@ -30,4 +30,22 @@ For example, if you store it in D:\tile,  then the `dataset_path` is D:/tile/.
 
 ## Run the LinUCB predictor on the dataset 
 
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
+Download the folder "LR_LinUCB_predictors_python",  and run `LinUCB_prediction_results.py`.  
+
+Input the `dataset_path`, the prediction starts  and the results on the dataset will be stored in the file `average_DoO_CB.mat`.
+
+## Run the LR predictor on the dataset 
+
+ Run `LR_prediction_results.py`.  Input the `dataset_path`, the prediction starts  and the results on the dataset will be stored in the file `average_DoO_LR.mat`.
+
+# Reproduce the fitting functions of prediction performance of predictors
+
+Download the folder "obtain_results_matlab". Copy `average_DoO_CB.mat` and `average_DoO_LR.mat` to the folder. 
+
+Run `plot_Fig4a_Table_I_LR_fitting_function.m`,  `plot_Fig4b_Table_II_CB_fitting_function.m`, and `plot_Fig4c_Table_III_GRU_fitting_function.m`, respectively, the fitting functions as well as the fitting parameters can be obtained. 
+
+The fitting parameters will be stored as `fitting_performance_LR.mat`, `fitting_performance_LinUCB.mat`, and `fitting_performance_GRU.mat`, respectively.
+
+# Reproduce other results with the fitting functions.
+
+Run all the other files prefixed by "plot", you will obtain all other results in the paper.
