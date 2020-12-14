@@ -21,7 +21,7 @@ We use the following public 360 video dataset:
 
 -[360 video viewing dataset in head-mounted virtual reality](https://dl.acm.org/doi/abs/10.1145/3083187.3083219).  Wen-Chih Lo,  Ching-Ling Fan,   Jean Lee,  Chun-Ying Huang,   Kuan-Ta Chen, Cheng-Hsin Hsu.
 
-Published on ACM MMsys, 2017.
+Published on ACM MMsys, 2017. If you find the dataset useful for your research, please cite their paper.
 
 You can find the tile requests of the dataset in the folder "tile". Download the folder and store it locally, log the absolute  path and transform the absolute  path into  `dataset_path`.
 
